@@ -41,7 +41,12 @@ tests:
         - python
         - pip
     script:
-      - pip check
+tests:
+  - python:
+      imports:
+        - sphinx_needs
+      pip_check: true
+      python_version: ${{ python_min }}.*
 
 about:
   summary: Sphinx needs extension for managing needs/requirements and specifications
