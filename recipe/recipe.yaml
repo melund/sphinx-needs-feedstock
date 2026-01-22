@@ -35,15 +35,6 @@ tests:
   - python:
       imports:
         - sphinx_needs
-  - requirements:
-      run:
-        - python
-        - pip
-    script:
-tests:
-  - python:
-      imports:
-        - sphinx_needs
       pip_check: true
       python_version: ${{ python_min }}.*
 
