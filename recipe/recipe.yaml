@@ -21,11 +21,11 @@ requirements:
     - flit-core >=3.4,<4
     - pip
   run:
-    - python >= ${{ python_min }}
+    - python >=${{ python_min }}
     - sphinx >=7.4,<9
     - requests-file >=2.1.0,<3.0.0
     - requests >=2.32,<3.0.0
-    - jsonschema-rs >=0.37.1
+    - jsonschema-rs >=0.37.1,<=0.38
     - sphinx-data-viewer >=0.1.5,<0.2.0
     - sphinxcontrib-jquery >=4.0
     - tomli
