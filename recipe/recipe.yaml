@@ -27,8 +27,8 @@ requirements:
     - requests >=2.32,<3.0.0
     - jsonschema-rs >=0.37.1
     - sphinx-data-viewer >=0.1.5,<0.2.0
-    - sphinxcontrib-jquery >=4
-	  - tomli
+    - sphinxcontrib-jquery >=4.0
+    - tomli
     - typing-extensions >=4.14.0
 
 tests:
