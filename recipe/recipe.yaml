@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/sphinx_needs-${{ version }}.tar.gz
-  sha256: f12cb45a585ce47cc4a633cb97d0df44fb3107f82ed01eebd729e9e4be518dc
+  sha256: fa12cb45a585ce47cc4a633cb97d0df44fb3107f82ed01eebd729e9e4be518dc
 
 build:
   number: 0
